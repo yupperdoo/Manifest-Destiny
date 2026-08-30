@@ -1154,6 +1154,11 @@ form[name="running mate"] select {
   text-align: left !important;
   padding: 0.5em 1.2em !important;
   margin-top: 0em !important;
+  color: white;
+}
+
+#difficulty_mult {
+  color: white;
 }
 
 #final_results_description.content_single p {
