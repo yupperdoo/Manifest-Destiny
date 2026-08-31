@@ -926,6 +926,16 @@ input[type="radio"].game_answers:checked {
   font-family: "Georgia", serif !important;
   font-size: 1.25em !important;
   background-color: #E1EAEB;
+}]
+
+/* Results by State */
+#results_container
+  color: white;
+}
+
+/* Overall Results */
+#overall_result_container.done
+  color: white;
 }
 `;
 document.head.appendChild(style);
