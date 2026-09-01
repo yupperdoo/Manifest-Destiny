@@ -884,6 +884,8 @@ input[type="radio"].game_answers:checked {
   background-color: #5a647d !important; /* same dark navy as rest of UI */
   border-top: none !important;
   border-color: transparent !important;
+  margin-top: 0.6em;
+  margin-left: 1.1em;
 }
 
 /* Play Again Screen */
@@ -895,12 +897,12 @@ input[type="radio"].game_answers:checked {
 }
 
 /* Results by State */
-#results_container
+#results_container {
   color: white;
 }
 
 /* Overall Results */
-#overall_result_container.done
+#overall_details_container.done {
   color: white;
 }
 `;
